@@ -3,7 +3,6 @@
     # Encoding: The process of converting data into a specific format so it can be safely transmitted or stored.
     # Serializing: The process of converting an in-memory object (like a Python dictionary) into a format that can be easily stored or transmitted (like json or XML).
 # Work out which one of them are you doing with the subtasks below
-from operator import index
 import json
 servers_dict = {
     "server1": {
@@ -30,11 +29,11 @@ print(json_string)
 
 
 # Convert this Python dictionary to a json file
-with open('servers.json', 'w') as json_file:
+with open('../json_python_dict/servers.json', 'w') as json_file:
     json.dump(servers_dict, json_file, indent=4)
 
 # Check if the file was created and print the content to verify
-with open('servers.json', 'r') as json_file:
+with open('../json_python_dict/servers.json', 'r') as json_file:
     data = json_file.read()
     print(data)
 

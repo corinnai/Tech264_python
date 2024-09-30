@@ -1,5 +1,5 @@
 
-![tuples , lists, sets , frozen.png](../tuples%20,%20lists,%20sets%20,%20frozen.png)
+![tuples , lists, sets , frozen.png](..%2F..%2Fimages%2Ftuples%20%2C%20lists%2C%20sets%20%2C%20frozen.png)
 
 
 # What is slicing strings?

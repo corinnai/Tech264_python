@@ -1,11 +1,6 @@
 # 1. Make a function with no argument
 # Name it 'print_something' and all it should do it print something to the screen
 # Call the function to test it works
-from os import device_encoding
-from time import process_time
-
-from unicodedata import numeric
-
 
 #def print_somthing():
      #print("Something")

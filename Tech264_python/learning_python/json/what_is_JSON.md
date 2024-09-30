@@ -105,7 +105,7 @@ print(servers_json_string)
 ```python
 # Convert this Python dictionary to a json file
 
-with open('servers.json', 'w') as json_file:
+with open('json_python_dict/servers.json', 'w') as json_file:
   json.dump(servers_dict, json_file, indent=4)
 
 # open() function: This opens a file. The first argument ('servers.json') specifies the name of the file to open. If the file does not exist, Python will create it.
@@ -131,19 +131,19 @@ with open('servers.json', 'w') as json_file:
 
 ```python
 # Check if the file was created and print the content to verify
-with open('servers.json', 'r') as json_file:
-    data = json_file.read()
-    print(data)
+with open('json_python_dict/servers.json', 'r') as json_file:
+  data = json_file.read()
+  print(data)
 
 # 'r' mode: The file is opened in "read" mode. This means the file's contents will be read but not modified. If the file does not exist, Python will raise an error.
 
 # data = json_file.read():
-    # json_file.read(): Reads the entire content of the file (servers.json) and returns it as a single string. This content is then stored in the variable data.
-#print(data):
-    #Prints the contents of the file to the console, allowing you to verify that the data in the json file is correct and matches the original dictionary (servers_dict) that was written to the file.
+# json_file.read(): Reads the entire content of the file (servers.json) and returns it as a single string. This content is then stored in the variable data.
+# print(data):
+# Prints the contents of the file to the console, allowing you to verify that the data in the json file is correct and matches the original dictionary (servers_dict) that was written to the file.
 
 # What it does:
-    # This block of code opens the json file servers.json in read mode.
-    # It reads the contents of the file into the variable data.
-    # Then, it prints the content of the file to the console for verification.
+# This block of code opens the json file servers.json in read mode.
+# It reads the contents of the file into the variable data.
+# Then, it prints the content of the file to the console for verification.
 ```
