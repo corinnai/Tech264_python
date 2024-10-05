@@ -1,1 +1,1 @@
-# Git demo
+# git-presentation
